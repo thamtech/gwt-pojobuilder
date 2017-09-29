@@ -40,6 +40,8 @@
 
   <properties>
     <plugin.version.gwt.maven>1.0-rc-8</plugin.version.gwt.maven>
+    <plugin.version.maven.gpg>1.6</plugin.version.maven.gpg>
+    <plugin.version.maven.javadoc>3.0.0-M1</plugin.version.maven.javadoc>
     <plugin.version.maven.source>3.0.1</plugin.version.maven.source>
   </properties>
 
@@ -53,6 +55,48 @@
         <configuration>
           <moduleName>com.thamtech.gwt.pojobuilder.PojoBuilder</moduleName>
         </configuration>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-source-plugin</artifactId>
+        <version>${plugin.version.maven.source}</version>
+        <executions>
+          <execution>
+            <id>attach-sources</id>
+            <goals>
+              <goal>jar-no-fork</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <version>${plugin.version.maven.javadoc}</version>
+        <executions>
+          <execution>
+            <id>attach-javadocs</id>
+            <goals>
+              <goal>jar</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-gpg-plugin</artifactId>
+        <version>${plugin.version.maven.gpg}</version>
+        <executions>
+          <execution>
+            <id>sign-artifacts</id>
+            <phase>verify</phase>
+            <goals>
+              <goal>sign</goal>
+            </goals>
+          </execution>
+        </executions>
       </plugin>
     </plugins>
   </build>
