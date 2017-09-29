@@ -19,12 +19,10 @@ GWT PojoBuilder is available in Maven Central.
 To use it, add the following dependency to your POM:
 
 ```xml
-TODO:
-
 <dependency>
   <groupId>com.thamtech.gwt</groupId>
   <artifactId>gwt-pojobuilder</artifactId>
-  <version>1.0.0</version>
+  <version>${gwt-pojobuilder.version}</version>
 </dependency>
 ```
 
