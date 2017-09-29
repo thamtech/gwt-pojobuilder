@@ -28,6 +28,9 @@ TODO:
 </dependency>
 ```
 
+(Don't forget to include a separate dependency for
+[PojoBuilder](http://github.com/mkarneim/pojobuilder).)
+
 In your GWT module, inherit from `com.thamtech.gwt.pojobuilder.PojoBuilder`:
 
 ```xml

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.thamtech.gwt</groupId>
+  <artifactId>gwt-pojobuilder</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>gwt-lib</packaging>
+
+  <name>GWT-PojoBuilder</name>
+  <description>Enables PojoBuilder-generated builders to be used in GWT.</description>
+  <url>https://github.com/thamtech/gwt-pojobuilder</url>
+
+  <inceptionYear>2017</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <name>Tyler Ham</name>
+      <email>tyler@thamtech.com</email>
+      <organization>Thamtech, LLC</organization>
+    </developer>
+  </developers>
+
+  <issueManagement>
+    <system>GitHub</system>
+    <url>https://github.com/thamtech/gwt-pojobuilder/issues</url>
+  </issueManagement>
+
+  <properties>
+    <plugin.version.gwt.maven>1.0-rc-8</plugin.version.gwt.maven>
+    <plugin.version.maven.source>3.0.1</plugin.version.maven.source>
+  </properties>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>net.ltgt.gwt.maven</groupId>
+        <artifactId>gwt-maven-plugin</artifactId>
+        <version>${plugin.version.gwt.maven}</version>
+        <extensions>true</extensions>
+        <configuration>
+          <moduleName>com.thamtech.gwt.pojobuilder.PojoBuilder</moduleName>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
