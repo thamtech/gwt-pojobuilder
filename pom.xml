@@ -27,6 +27,12 @@
     </developer>
   </developers>
 
+  <scm>
+    <connection>scm:git:https://github.com/thamtech/gwt-pojobuilder</connection>
+    <developerConnection>scm:git:git@github.com:thamtech/gwt-pojobuilder.git</developerConnection>
+    <url>https://github.com/thamtech/gwt-pojobuilder</url>
+  </scm>
+
   <issueManagement>
     <system>GitHub</system>
     <url>https://github.com/thamtech/gwt-pojobuilder/issues</url>
