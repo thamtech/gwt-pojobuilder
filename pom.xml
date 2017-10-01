@@ -4,10 +4,10 @@
 
   <groupId>com.thamtech.gwt</groupId>
   <artifactId>gwt-pojobuilder</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <packaging>gwt-lib</packaging>
 
-  <name>GWT-PojoBuilder</name>
+  <name>GWT PojoBuilder</name>
   <description>Enables PojoBuilder-generated builders to be used in GWT.</description>
   <url>https://github.com/thamtech/gwt-pojobuilder</url>
 
