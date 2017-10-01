@@ -1,4 +1,5 @@
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.thamtech.gwt/gwt-pojobuilder/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.thamtech.gwt/gwt-pojobuilder)
+[![Build Status](https://travis-ci.org/thamtech/gwt-pojobuilder.svg?branch=master)](https://travis-ci.org/thamtech/gwt-pojobuilder)
 
 GWT PojoBuilder - Enables PojoBuilder in GWT
 ============================================
