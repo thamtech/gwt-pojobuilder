@@ -1,13 +1,19 @@
+# :no_entry: [OBSOLETE]
+
+GWT PojoBuilder is no longer necessary since GWT support has been enabled in [PojoBuilder](https://github.com/mkarneim/pojobuilder) as of version [v4.1.0](https://github.com/mkarneim/pojobuilder/releases/tag/v4.1.0).
+
+---
+
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.thamtech.gwt/gwt-pojobuilder/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.thamtech.gwt/gwt-pojobuilder)
 [![Build Status](https://travis-ci.org/thamtech/gwt-pojobuilder.svg?branch=master)](https://travis-ci.org/thamtech/gwt-pojobuilder)
 
 GWT PojoBuilder - Enables PojoBuilder in GWT
 ============================================
 
-GWT PojoBuilder enables [PojoBuilder](http://github.com/mkarneim/pojobuilder)-generated
+GWT PojoBuilder enables [PojoBuilder](https://github.com/mkarneim/pojobuilder)-generated
 builders to be used in GWT.
 
-[PojoBuilder](http://github.com/mkarneim/pojobuilder) is a code generator
+[PojoBuilder](https://github.com/mkarneim/pojobuilder) is a code generator
 that generates fluent builder classes for POJOs (Plain Old Java Objects). The
 builders it generates include a `clone()` method and catch exceptions that
 are not included in GWT's JRE emulation.
